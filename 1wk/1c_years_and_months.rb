@@ -30,13 +30,15 @@ def convert_seconds_to_age(seconds)
   months = years % 1 * 12
   [years.to_i, months.to_i]
 end
+
 def display_age(age_array)
   "I'm #{age_array[0]} years and #{age_array[1]} months old."
 end
+
 if __FILE__ == $PROGRAM_NAME
-  puts display_age(convert_seconds_to_age(979000000))
-  puts display_age(convert_seconds_to_age(2158493738))
-  puts display_age(convert_seconds_to_age(246144023))
-  puts display_age(convert_seconds_to_age(1270166272))
-  puts display_age(convert_seconds_to_age(1025600095))
+  years_in_seconds = [979000000, 2158493738, 246144023, 1270166272, 1025600095]
+  years_in_seconds.each do |age|
+    puts display_age(convert_seconds_to_age(age))
+  end
 end
+
