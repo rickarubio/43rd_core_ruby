@@ -14,7 +14,8 @@
 # 0 is a flag, which tells Ruby to pad with zeroes instead of spaces
 # 5 is the width of the string (5 characters)
 # d means to convert the argument 123 as a decimal number
-# finally field type is "" so the return should be a String
+# d is also the field type
+# The method % will return the result as a String
 
 # pad with zeroes
 puts "%05d" % 123
