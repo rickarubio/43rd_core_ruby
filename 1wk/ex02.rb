@@ -11,7 +11,13 @@
 # "A format sequence consists of a percent sign, followed by optional
 #  flags, width, and precision indicators, then terminated with a field
 #  type character."
-# 05 is the width of the string (5 characters)
+# 0 is a flag, which tells Ruby to pad with zeroes instead of spaces
+# 5 is the width of the string (5 characters)
 # d means to convert the argument 123 as a decimal number
 # finally field type is "" so the return should be a String
+
+# pad with zeroes
 puts "%05d" % 123
+
+#pad with spaces
+puts "%5d" % 123
