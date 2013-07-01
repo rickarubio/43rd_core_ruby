@@ -12,20 +12,20 @@
 
 # doctest: Test a couple fahrenheit to celsius conversion scenarios
 # >> convert(100)
-# => "37.78"
+# => 37.78
 # >> convert(-28)
-# => "-33.33"
+# => -33.33
 # >> convert(0)
-# => "-17.78"
+# => -17.78
 # >> convert(35)
-# => "1.67"
+# => 1.67
 # doctest: I should be able to add two converted values together
 # >> convert(-40) + convert(212)
 # => 60.0
 
 def convert(degrees_fahrenheit)
-  # returns degrees Celsius as a String
-  format '%.2f', (degrees_fahrenheit - 32) / 1.8
+  # returns degrees Celsius
+  ((degrees_fahrenheit - 32) / 1.8).round(2)
 end
 
 if __FILE__ == $PROGRAM_NAME
