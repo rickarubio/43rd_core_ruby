@@ -10,4 +10,6 @@
 =end
 age_in_seconds = 979_000_000
 puts "You are #{format "%.2f", 
-  age_in_seconds.to_f / 60 / 60 / 24 / 365} years old."
+  age_in_seconds / 60 / 60 / 24 / 365} years old."
+
+  puts 100/60
