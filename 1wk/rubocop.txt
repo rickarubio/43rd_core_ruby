@@ -1,0 +1,174 @@
+== 1c_years_and_months.rb ==
+C:  1:  1: Missing utf-8 encoding comment.
+C:  2:  1: Use only ascii symbols in comments.
+C:  2:  1: Do not use block comments.
+C:  3: 37: Trailing whitespace detected.
+C:  4: 63: Trailing whitespace detected.
+C:  5: 28: Trailing whitespace detected.
+C: 25: 73: Trailing whitespace detected.
+C: 39: 23: Add underscores to large numeric literals to improve their readability.
+C: 39: 34: Add underscores to large numeric literals to improve their readability.
+C: 39: 46: Add underscores to large numeric literals to improve their readability.
+C: 39: 57: Add underscores to large numeric literals to improve their readability.
+C: 39: 69: Add underscores to large numeric literals to improve their readability.
+== 6e_convert.rb ==
+C:  1:  1: Missing utf-8 encoding comment.
+C:  2:  1: Do not use block comments.
+== ch01.rb ==
+C:  1:  1: Missing utf-8 encoding comment.
+C:  2:  1: Use only ascii symbols in comments.
+C:  2:  1: Do not use block comments.
+C:  3: 37: Trailing whitespace detected.
+C:  4: 63: Trailing whitespace detected.
+C:  5: 28: Trailing whitespace detected.
+C: 26: 73: Trailing whitespace detected.
+C: 40: 43: Add underscores to large numeric literals to improve their readability.
+C: 41: 43: Add underscores to large numeric literals to improve their readability.
+C: 42: 43: Add underscores to large numeric literals to improve their readability.
+C: 43: 43: Add underscores to large numeric literals to improve their readability.
+C: 44: 43: Add underscores to large numeric literals to improve their readability.
+== ch02.rb ==
+C:  1:  1: Missing utf-8 encoding comment.
+C:  2:  1: Do not use block comments.
+C:  3: 80: Line is too long. [134/79]
+C:  5: 80: Line is too long. [455/79]
+C:  7: 80: Line is too long. [447/79]
+C:  9: 80: Line is too long. [162/79]
+C: 11: 80: Line is too long. [127/79]
+C: 14: 80: Line is too long. [85/79]
+C: 17:  5: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 17: 19: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 20:  8: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 21:  8: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 22:  8: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 23:  8: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 24:  8: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 25:  8: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 26:  8: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 27:  8: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 30: 16: Do not use parentheses for method calls with no arguments.
+C: 31:  7: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+W: 32:  1: Assigned but unused variable - conversion_request
+== ch03.rb ==
+C:  1:  1: Missing utf-8 encoding comment.
+== ex01.rb ==
+C:  1:  1: Missing utf-8 encoding comment.
+C:  2:  1: Do not use block comments.
+C:  3: 60: Trailing whitespace detected.
+C:  4: 48: Trailing whitespace detected.
+C:  9: 16: Prefer $PROGRAM_NAME over $0.
+C: 13:  9: Use || instead of or.
+C: 15: 11: Use || instead of or.
+C: 17: 10: Use || instead of or.
+== ex02.rb ==
+C:  1:  1: Missing utf-8 encoding comment.
+C:  2:  1: Do not use block comments.
+C:  3: 57: Trailing whitespace detected.
+C:  4: 62: Trailing whitespace detected.
+C:  8: 59: Trailing whitespace detected.
+C: 21:  6: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 21: 13: Favor sprintf over String#%.
+C: 23:  1: Missing space after #.
+C: 24:  6: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 24: 12: Favor sprintf over String#%.
+== ex03.rb ==
+C:  1:  1: Missing utf-8 encoding comment.
+C:  2:  1: Do not use block comments.
+C:  3: 59: Trailing whitespace detected.
+C:  4: 64: Trailing whitespace detected.
+C:  7: 54: Trailing whitespace detected.
+C:  8: 54: Trailing whitespace detected.
+C: 12: 31: Trailing whitespace detected.
+C: 13:  3: Align the parameters of a method call if they span more than one line.
+== ex04.rb ==
+C:  1:  1: Missing utf-8 encoding comment.
+C:  2:  1: Do not use block comments.
+C:  3: 55: Trailing whitespace detected.
+C:  6:  6: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:  8: 69: Trailing whitespace detected.
+C:  9: 65: Trailing whitespace detected.
+C: 11: 26: Trailing whitespace detected.
+C: 14:  8: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 15:  8: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+== ex05.rb ==
+C:  1:  1: Missing utf-8 encoding comment.
+C:  2:  1: Do not use block comments.
+C: 17: 15: Do not use parentheses for method calls with no arguments.
+== ex06.rb ==
+C:  1:  1: Missing utf-8 encoding comment.
+C:  2:  1: Do not use block comments.
+C:  3: 56: Trailing whitespace detected.
+C:  4: 60: Trailing whitespace detected.
+C:  5: 52: Trailing whitespace detected.
+C:  6: 48: Trailing whitespace detected.
+C:  7: 54: Trailing whitespace detected.
+C:  8: 56: Trailing whitespace detected.
+C:  9: 69: Trailing whitespace detected.
+C: 24: 10: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C: 24: 49: Trailing whitespace detected.
+C: 27: 16: Prefer $PROGRAM_NAME over $0.
+== p001hello.rb ==
+C:  1:  1: Do not use block comments.
+C:  1:  1: Missing utf-8 encoding comment.
+C:  2:  1: Tab detected.
+== p002rubynumbers.rb ==
+C:  1:  1: Do not use block comments.
+C:  1:  1: Missing utf-8 encoding comment.
+== p003rubystrings.rb ==
+C:  1:  1: Do not use block comments.
+C:  1:  1: Missing utf-8 encoding comment.
+C:  5:  6: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+== p004stringusage.rb ==
+C:  1:  1: Missing utf-8 encoding comment.
+C:  7:  1: Do not use block comments.
+C: 11:  9: Do not use semicolons to terminate expressions.
+C: 16:  2: Surrounding space missing for operator '<<'.
+C: 19:  1: Do not use block comments.
+== p005methods.rb ==
+C:  1:  1: Missing utf-8 encoding comment.
+C:  2:  6: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:  9:  6: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+== p006ftoc.rb ==
+C:  1:  1: Missing utf-8 encoding comment.
+C:  6: 10: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+== p007dt.rb ==
+C:  1:  1: Do not use block comments.
+C:  1:  1: Missing utf-8 encoding comment.
+C: 16:  5: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+== p008mymethods.rb ==
+C:  1:  1: Missing utf-8 encoding comment.
+C:  3: 80: Line is too long. [103/79]
+C: 18: 12: Use def with parentheses when there are arguments.
+== p009mymethods1.rb ==
+C:  1:  1: Missing utf-8 encoding comment.
+C:  4: 13: Surrounding space missing in default value assignment.
+C:  4: 14: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:  4: 27: Surrounding space missing in default value assignment.
+C:  4: 28: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:  4: 44: Surrounding space missing in default value assignment.
+C:  4: 45: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:  8: 10: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+== p010aliasmtd.rb ==
+C:  1:  1: Missing utf-8 encoding comment.
+C:  5:  3: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:  7:  1: Use alias_method instead of alias.
+C:  9:  3: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+== p011vararg.rb ==
+C:  1:  1: Missing utf-8 encoding comment.
+C:  8:  9: Do not use parentheses for method calls with no arguments.
+== p012mtdstack.rb ==
+C:  1:  1: Missing utf-8 encoding comment.
+C:  2: 10: Surrounding space missing in default value assignment.
+C:  2: 16: Surrounding space missing in default value assignment.
+C:  2: 18: Surrounding space missing for operator '+'.
+C:  3:  5: Space missing after comma.
+== p012zmm.rb ==
+C:  1:  1: Missing top-level class documentation comment.
+C:  1:  1: Missing utf-8 encoding comment.
+== p013expint.rb ==
+C:  1:  1: Missing utf-8 encoding comment.
+== p013strcmp.rb ==
+C:  1:  1: Missing utf-8 encoding comment.
+C:  1: 80: Line is too long. [88/79]
+
+26 files inspected, 146 offences detected
