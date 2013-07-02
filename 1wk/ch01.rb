@@ -37,9 +37,6 @@ def display_age(age_array)
 end
 
 if __FILE__ == $PROGRAM_NAME
-  puts display_age(convert_seconds_to_age(979000000))
-  puts display_age(convert_seconds_to_age(2158493738))
-  puts display_age(convert_seconds_to_age(246144023))
-  puts display_age(convert_seconds_to_age(1270166272))
-  puts display_age(convert_seconds_to_age(1025600095))
+  years_in_seconds = [979000000, 2158493738, 246144023, 1270166272, 1025600095]
+  years_in_seconds.each {|age| puts display_age(convert_seconds_to_age(age))}
 end
