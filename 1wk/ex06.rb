@@ -10,16 +10,16 @@
   puts (x*100).round/100.0
 =end
 # doctest: Test a couple fahrenheit to celsius conversion scenarios
-# >> convert(100)
+# >> convert(100, 2)
 # => 37.78
-# >> convert(-28)
+# >> convert(-28, 2)
 # => -33.33
-# >> convert(0)
+# >> convert(0, 2)
 # => -17.78
-# >> convert(35)
+# >> convert(35, 2)
 # => 1.67
 # doctest: I should be able to add two converted values together
-# >> convert(-40) + convert(212)
+# >> convert(-40, 2) + convert(212, 2)
 # => 60.0
 def convert(degrees_fahrenheit, digits_of_precision)
   # returns degrees Celsius
