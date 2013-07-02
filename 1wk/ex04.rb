@@ -9,7 +9,7 @@ puts "Enter any number of years: "
 # as a floating point number. Extraneous characters past the end 
 # of a valid number are ignored.
 # years = gets.chomp.to_f
-years = nil
+
 # without parentheses, this would fail. >= has higher precedence than =
 until ((years = gets.to_f) >= 0)
   puts "Invalid input, please try again."
